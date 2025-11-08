@@ -1,13 +1,13 @@
 // Data
 const servicesData = [
   {
-    title: "I will create beautiful posters for your company.",
+    title: "If you want to be part of my work and services.",
     reviews: "2 reviews",
     price: "from $90",
     subscription: false,
-    description: "Professional poster designs with bold colors and creative concepts. Perfect for marketing campaigns, events, and brand promotion.",
+    description: "Data Structure, analyzie, entry, sorting, visualizing.",
     deliveryTime: "3-5 days",
-    revisions: "2 revisions included"
+    revisions: "4 revisions included"
   },
   {
     title: "I will create 3D designs for your brand.",
@@ -55,6 +55,7 @@ function switchPage(pageName) {
     'services': 'servicesPage',
     'products': 'productsPage',
     'portfolio': 'portfolioPage',
+    'roadmap': 'roadmapPage',
     'about': 'aboutPage'
   };
   
@@ -156,11 +157,11 @@ function openContactModal(title) {
 window.openContactModal = openContactModal;
 
 workBtn.addEventListener('click', () => {
-  openContactModal('Work with Miles');
+  openContactModal('Work with Sayeed');
 });
 
 payBtn.addEventListener('click', () => {
-  openContactModal('Pay Miles');
+  openContactModal('Pay Sayeed');
 });
 
 closeContactModalBtn.addEventListener('click', () => {
@@ -201,7 +202,7 @@ contactForm.addEventListener('submit', (e) => {
     font-weight: 600;
     animation: slideIn 0.3s ease;
   `;
-  notification.textContent = 'Message sent successfully! Miles will get back to you soon.';
+  notification.textContent = 'Message sent successfully! Sayeed will get back to you soon.';
   document.body.appendChild(notification);
   
   setTimeout(() => {
@@ -249,7 +250,9 @@ socialIcons.forEach(icon => {
     const socialNames = {
       'instagram': 'Instagram',
       'pinterest': 'Pinterest',
-      'linkedin': 'LinkedIn'
+      'linkedin': 'LinkedIn',
+      'reddit': 'Reddit',
+      'github': 'GitHub'
     };
     
     // Create temporary notification
@@ -267,7 +270,7 @@ socialIcons.forEach(icon => {
       font-weight: 600;
       animation: slideIn 0.3s ease;
     `;
-    notification.textContent = `Visit Miles on ${socialNames[social]}`;
+    notification.textContent = `Visit Sayeed on ${socialNames[social]}`;
     document.body.appendChild(notification);
     
     setTimeout(() => {
@@ -304,7 +307,7 @@ document.querySelector('.search-btn').addEventListener('click', () => {
     font-weight: 600;
     animation: slideIn 0.3s ease;
   `;
-  notification.textContent = 'Search functionality coming soon!';
+  notification.textContent = 'Search functionality coming soon integrated AI solution!';
   document.body.appendChild(notification);
   
   setTimeout(() => {
@@ -332,4 +335,4 @@ document.addEventListener('keydown', (e) => {
 });
 
 // Initialize
-console.log('Miles Becker Portfolio loaded successfully!');
+console.log('IGC- Sayeed Portfolio loaded successfully!');
