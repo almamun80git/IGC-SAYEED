@@ -1,10 +1,10 @@
-# Miles Becker - Designer Portfolio Website
+# Sayeed - Data Scientist Portfolio Website
 
 A modern, professional portfolio website showcasing design services and creative work. Built with HTML5, CSS3, and vanilla JavaScript for a smooth, responsive user experience.
 
 ## Overview
 
-This portfolio website is designed for Miles Becker, a designer specializing in visual design, poster creation, and 3D design services. The site features a clean, contemporary layout with a fixed sidebar profile section and a dynamic main content area.
+This portfolio website is designed for Sayeed, a data scientist specializing in data science, python, and resources management. The site features a clean, contemporary layout with a fixed sidebar profile section and a dynamic main content area.
 
 ## Features
 
