@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miles Becker - Designer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+        <div class="nav-left">
+            <span class="site-url">ruul.space/milesbecker</span>
+        </div>
+        <div class="nav-center">
+            <a href="#" class="nav-link active" data-page="services">Services</a>
+            <a href="#" class="nav-link" data-page="products">Products</a>
+            <a href="#" class="nav-link" data-page="portfolio">Portfolio</a>
+            <a href="#" class="nav-link" data-page="about">About</a>
+        </div>
+        <div class="nav-right">
+            <button class="icon-btn search-btn" aria-label="Search">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+            </button>
+            <button class="icon-btn menu-btn" aria-label="Menu">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenu">
+        <button class="close-menu" id="closeMenu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+        <div class="mobile-profile">
+            <div class="profile-image">
+                <div class="profile-placeholder">MB</div>
+            </div>
+            <h2>Miles Becker</h2>
+            <p class="designer-label">DESIGNER</p>
+        </div>
+        <div class="mobile-nav-links">
+            <a href="#" class="mobile-nav-link active" data-page="services">Services</a>
+            <a href="#" class="mobile-nav-link" data-page="products">Products</a>
+            <a href="#" class="mobile-nav-link" data-page="portfolio">Portfolio</a>
+            <a href="#" class="mobile-nav-link" data-page="about">About</a>
+        </div>
+    </div>
+
+    <!-- Left Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-content">
+            <!-- Profile Section -->
+            <div class="profile-section">
+                <div class="profile-image">
+                    <div class="profile-placeholder">MB</div>
+                </div>
+                <p class="designer-label">DESIGNER</p>
+                <h1 class="designer-name">
+                    Miles Becker
+                    <svg class="verified-badge" width="20" height="20" viewBox="0 0 24 24" fill="#1DA1F2">
+                        <path d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z"/>
+                    </svg>
+                </h1>
+                <p class="bio">Curious mind crafting bold, thoughtful design. Loves clean lines, deep colors, and clever ideas.</p>
+                <div class="availability-badge">Available for work</div>
+            </div>
+
+            <!-- Info Section -->
+            <div class="info-section">
+                <div class="info-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 6v6l4 2"></path>
+                    </svg>
+                    <span>GMT+3</span>
+                </div>
+                <div class="info-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    <span>English, French, 2 more</span>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="skills-section">
+                <div class="skill-tag">Figma</div>
+                <div class="skill-tag">Webflow</div>
+                <div class="skill-tag">Frontend design</div>
+                <div class="skill-tag">+3</div>
+            </div>
+
+            <!-- Social Media -->
+            <div class="social-section">
+                <a href="#" class="social-icon" aria-label="Instagram" data-social="instagram">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+                <a href="#" class="social-icon" aria-label="Pinterest" data-social="pinterest">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M8 12c0-2.5 2-4.5 4.5-4.5S17 9.5 17 12c0 1.5-.5 2.5-1.5 3-1 .5-1.5.5-1.5 1.5v1"></path>
+                    </svg>
+                </a>
+                <a href="#" class="social-icon" aria-label="LinkedIn" data-social="linkedin">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Portfolio Thumbnails -->
+            <div class="portfolio-thumbnails">
+                <div class="thumbnail" style="background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);"></div>
+                <div class="thumbnail" style="background: linear-gradient(135deg, #D4D946 0%, #c5ca3d 100%);"></div>
+                <div class="thumbnail" style="background: linear-gradient(135deg, #000000 0%, #333333 100%);"></div>
+                <div class="thumbnail" style="background: linear-gradient(135deg, #C9A961 0%, #b89850 100%);"></div>
+                <div class="thumbnail" style="background: linear-gradient(135deg, #D4A574 0%, #c59463 100%);"></div>
+                <div class="thumbnail" style="background: linear-gradient(135deg, #8B4513 0%, #7a3d10 100%);"></div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <button class="btn btn-outline" id="workBtn">Work with Miles</button>
+                <button class="btn btn-filled" id="payBtn">Pay Miles</button>
+            </div>
+
+            <!-- Footer -->
+            <div class="sidebar-footer">
+                <span>powered by <strong>ruul.io</strong></span>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-container">
+            <!-- Services Page -->
+            <div class="page-content" id="servicesPage">
+                <div class="services-grid">
+                    <!-- Service Card 1 -->
+                    <article class="service-card" data-service="0">
+                        <div class="service-header">
+                            <div>
+                                <h2 class="service-title">I will create beautiful posters for your company.</h2>
+                                <p class="service-reviews">2 reviews</p>
+                            </div>
+                            <div class="service-price">from $90</div>
+                        </div>
+                        <div class="service-image">
+                            <div class="poster-design">
+                                <div class="poster" style="background: #E89BA0;">
+                                    <div class="sun-icon" style="color: #D4D946;">
+                                        <svg width="60" height="60" viewBox="0 0 100 100" fill="currentColor">
+                                            <circle cx="50" cy="50" r="20"/>
+                                            <circle cx="50" cy="15" r="3"/>
+                                            <circle cx="50" cy="85" r="3"/>
+                                            <circle cx="15" cy="50" r="3"/>
+                                            <circle cx="85" cy="50" r="3"/>
+                                            <circle cx="25" cy="25" r="3"/>
+                                            <circle cx="75" cy="75" r="3"/>
+                                            <circle cx="75" cy="25" r="3"/>
+                                            <circle cx="25" cy="75" r="3"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="poster" style="background: #8BC34A;">
+                                    <div class="abstract-shape" style="background: #D4D946;"></div>
+                                </div>
+                                <div class="poster" style="background: #C9A961;">
+                                    <div class="sun-icon" style="color: #E89BA0;">
+                                        <svg width="60" height="60" viewBox="0 0 100 100" fill="currentColor">
+                                            <circle cx="50" cy="50" r="20"/>
+                                            <circle cx="50" cy="15" r="3"/>
+                                            <circle cx="50" cy="85" r="3"/>
+                                            <circle cx="15" cy="50" r="3"/>
+                                            <circle cx="85" cy="50" r="3"/>
+                                            <circle cx="25" cy="25" r="3"/>
+                                            <circle cx="75" cy="75" r="3"/>
+                                            <circle cx="75" cy="25" r="3"/>
+                                            <circle cx="25" cy="75" r="3"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Service Card 2 -->
+                    <article class="service-card" data-service="1">
+                        <div class="service-header">
+                            <div>
+                                <h2 class="service-title">I will create 3D designs for your brand.</h2>
+                                <p class="service-reviews">4 reviews</p>
+                            </div>
+                            <div class="service-price-container">
+                                <span class="subscription-badge">Subscription</span>
+                                <div class="service-price">from $120/mo</div>
+                            </div>
+                        </div>
+                        <div class="service-image">
+                            <div class="threed-design">
+                                <div class="threed-object sphere" style="background: linear-gradient(135deg, #D4D946 0%, #E88BA0 100%);"></div>
+                                <div class="threed-object cube" style="background: linear-gradient(135deg, #E88BA0 0%, #D4D946 100%);"></div>
+                                <div class="threed-object cylinder" style="background: linear-gradient(90deg, #D4D946 0%, #E88BA0 100%);"></div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Products Page -->
+            <div class="page-content hidden" id="productsPage">
+                <div class="empty-state">
+                    <h2>Products</h2>
+                    <p>Product catalog coming soon. Check back later for digital products and templates.</p>
+                </div>
+            </div>
+
+            <!-- Portfolio Page -->
+            <div class="page-content hidden" id="portfolioPage">
+                <div class="empty-state">
+                    <h2>Portfolio</h2>
+                    <p>Browse through the portfolio thumbnails in the sidebar to see selected works.</p>
+                </div>
+            </div>
+
+            <!-- About Page -->
+            <div class="page-content hidden" id="aboutPage">
+                <div class="about-content">
+                    <h2>About Miles Becker</h2>
+                    <p>Miles Becker is a passionate designer with a curious mind, crafting bold and thoughtful designs. With expertise in Figma, Webflow, and frontend design, Miles brings creative visions to life.</p>
+                    <h3>Experience &amp; Skills</h3>
+                    <p>Specializing in poster design, 3D branding, and digital experiences, Miles combines clean aesthetics with clever ideas to deliver memorable work.</p>
+                    <h3>Languages</h3>
+                    <p>English, French, and 2 more languages</p>
+                    <h3>Availability</h3>
+                    <p>Currently available for new projects and collaborations.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Service Modal -->
+    <div class="modal-overlay" id="serviceModal">
+        <div class="modal">
+            <button class="modal-close" id="closeModal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal-content" id="modalContent"></div>
+        </div>
+    </div>
+
+    <!-- Contact Modal -->
+    <div class="modal-overlay" id="contactModal">
+        <div class="modal contact-modal">
+            <button class="modal-close" id="closeContactModal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal-content">
+                <h2 id="contactModalTitle">Work with Miles</h2>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label class="form-label" for="name">Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="message">Message</label>
+                        <textarea id="message" class="form-control" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-filled btn-full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
